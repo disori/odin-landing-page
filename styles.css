@@ -33,7 +33,7 @@ a {
     margin-bottom: 150px;
 }
 
-img {
+.content img {
     width: 720px;
 }
 
@@ -44,12 +44,12 @@ img {
 }
 
 .text {
-    width: 400px;
+    width: 450px;
 }
 
 .text .main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
     margin-bottom: 16px;
 }
@@ -69,4 +69,34 @@ button {
     flex-grow: 0;
     border: none;
     font-weight: 700;
-}   
+} 
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.cat img {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+    border: 5px solid skyblue;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.trivia-section {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+
+.cat {
+    max-width: 200px;
+    text-align: center;
+    margin-bottom: 150px;
+}

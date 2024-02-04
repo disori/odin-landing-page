@@ -100,3 +100,29 @@ button {
     text-align: center;
     margin-bottom: 150px;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 20px 300px;
+    gap: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-top: 150px;
+    width: 900px;
+    align-self:center;
+}
+
+.author {
+    margin-bottom: 150px;
+    align-self: flex-end;
+    padding-right: 250px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -60,7 +60,7 @@ a {
     margin-bottom: 16px;
 }
 
-button {
+.content button {
     padding: 4px 24px;
     background-color: rgb(36, 140, 238);
     color: white;
@@ -124,5 +124,33 @@ button {
     align-self: flex-end;
     padding-right: 250px;
     font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-section {
+    display: flex;
+    margin: 150px 350px;
+    background-color: #3882F6;
+    padding: 75px 200px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-section .texts, .signup-section button {
+    color: white;
+}
+.signup-section .main-text {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.signup-section button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 5px 30px;
     font-weight: bold;
 }

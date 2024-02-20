@@ -27,6 +27,7 @@ a {
     color: #F9FAF8;
     font-weight: 700;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -40,6 +41,7 @@ a {
 .content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 150px;
 }
 
@@ -61,7 +63,7 @@ a {
 }
 
 .content button {
-    padding: 4px 24px;
+    padding: 8px 36px;
     background-color: rgb(36, 140, 238);
     color: white;
     border-radius: 5px;
@@ -115,8 +117,9 @@ a {
     font-weight: lighter;
     color: #1F2937;
     margin-top: 150px;
-    width: 900px;
+    width: 800px;
     align-self:center;
+    text-align: center;
 }
 
 .author {
